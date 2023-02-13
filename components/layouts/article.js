@@ -23,8 +23,10 @@ const Layout = ({ children, title}) => {
                 {title && (
                     <Head>
                         <title>{t}</title>
-                        <meta name="twitter:title" content={t} />
-                        <meta name="og:title" content={t} />
+                        {/* <meta name="twitter:title" content={t} /> */}
+                        <meta name="" content={t} />
+                        {/* <meta name="og:title" content={t} /> */}
+                        <meta name="" content={t} />
                     </Head>
                 )}
                 {children}
