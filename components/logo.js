@@ -30,8 +30,8 @@ const Logo = () => {
                         fontFamily='M PLus Rounded 1c'
                         fontWeight="bold"
                         ml={3}
+                    >
                         Manish Kumar Rai
-                        >
                     </Text>
                 </LogoBox>
         </Link>
