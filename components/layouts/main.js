@@ -11,7 +11,9 @@ const Main = ({ children, router }) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title>Manish - Porfolio</title>
             </Head>
-            <NavBar path={router.asPath} />
+            <NoSsr>
+                <NavBar path={router.asPath} />
+            </NoSsr>
             <Container maxW="container.md" pt={16}>
                 <NoSsr>
                     <VoxelCar />

@@ -11,7 +11,7 @@ const Works = () => {
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section>
-                    <WorkGridItem id="one" title="One Piece" thumbnail={Thumbnail}>
+                    <WorkGridItem id="onepiece" title="One Piece" thumbnail={Thumbnail}>
                         App to Treasure
                     </WorkGridItem>
                 </Section>
@@ -21,12 +21,12 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.1}>
-                    <WorkGridItem id="one" title="One Piece" thumbnail={Thumbnail}>
+                    <WorkGridItem id="one" title="One 1Piece" thumbnail={Thumbnail}>
                         App Devil to Treasure
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.1}>
-                    <WorkGridItem id="one" title="Two Piece" thumbnail={Thumbnail}>
+                    <WorkGridItem id="one" title="Two 1Piece" thumbnail={Thumbnail}>
                         App Devil to Treasure Two
                     </WorkGridItem>
                 </Section>
@@ -39,22 +39,22 @@ const Works = () => {
             </Section>
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section delay={0.3} >
-                    <WorkGridItem id="one" title="One Piece" thumbnail={Thumbnail}>
+                    <WorkGridItem id="one" title="One 3Piece" thumbnail={Thumbnail}>
                         App to Treasure
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.3}>
-                    <WorkGridItem id="one" title="Two Piece" thumbnail={Thumbnail}>
+                    <WorkGridItem id="one" title="Two 3Piece" thumbnail={Thumbnail}>
                         App to Treasure Hell
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.4}>
-                    <WorkGridItem id="one" title="One Piece" thumbnail={Thumbnail}>
+                    <WorkGridItem id="one" title="One 4Piece" thumbnail={Thumbnail}>
                         App Devil to Hell Fire 
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.4}>
-                    <WorkGridItem id="one" title="Two Piece" thumbnail={Thumbnail}>
+                    <WorkGridItem id="one" title="Two 4Piece" thumbnail={Thumbnail}>
                         App Devil to Hellish Angel
                     </WorkGridItem>
                 </Section>
