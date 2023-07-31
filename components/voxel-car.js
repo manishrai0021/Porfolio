@@ -53,7 +53,7 @@ const VoxelCar= () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0 + 3.7
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,

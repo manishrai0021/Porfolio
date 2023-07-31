@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import NavBar from '../navbar'
+import Footer from '../footer'
 import { Box, Container } from '@chakra-ui/react'
 import VoxelCar from '../voxel-car'
 import NoSsr from '../no-ssr'
@@ -20,6 +21,9 @@ const Main = ({ children, router }) => {
                 </NoSsr>
                 {children}
             </Container>
+            <NoSsr>
+                <Footer path={router.asPath} />
+            </NoSsr>
         </Box>
     )
 }

@@ -3,6 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import Thumbnail from '../public/images/works/work.jpg'
+import Soon from '../public/images/works/Soon.png'
 import SaralPrint from '../public/images/works/SaralPrint.jpeg'
 import TikTakToe from '../public/images/works/TikTakToe.png'
 import MD from '../public/images/works/MD.png'
@@ -51,7 +52,7 @@ const Works = () => {
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem
-            id="onepiece"
+            id="saralprint"
             title={works[0].name}
             thumbnail={SaralPrint}
           >
@@ -59,18 +60,18 @@ const Works = () => {
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="one" title={works[1].name} thumbnail={TikTakToe}>
+          <WorkGridItem id="tiktaktoe" title={works[1].name} thumbnail={TikTakToe}>
             {works[1].desc}
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="one" title={works[2].name} thumbnail={Thumbnail}>
+          <WorkGridItem id="one" title={works[2].name} thumbnail={Soon}>
             {works[2].desc}
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="one" title="One Piece" thumbnail={Thumbnail}>
-            App to Treasure
+          <WorkGridItem id="one" title="Agro Nepal" thumbnail={Soon}>
+            Farming Revolution
           </WorkGridItem>
         </Section>
       </SimpleGrid>

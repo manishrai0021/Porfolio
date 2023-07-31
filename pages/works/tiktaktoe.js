@@ -8,17 +8,16 @@ const Work = () => (
     <Layout title="One Piece">
         <Container>
             <Title>
-                One Piece <Badge>2022</Badge>
+                TikTakToe <Badge>Game</Badge>
             </Title>
             <P>
-                A Jorney to find the world's greatest treasure in history
-                The ONE PIECE.
+                A simple game of "X" and "O".
             </P>
             <List ml={4} my={4}>
                 <ListItem>
                     <Meta>Website</Meta>
-                    <Link href='/'>
-                        Open Piece <ExternalLinkIcon mx="2px" />
+                    <Link href='https://manishrai0021.github.io/manishTikTacToe/'>
+                        Go to Site <ExternalLinkIcon mx="2px" />
                     </Link>
                 </ListItem>
                 <ListItem>
@@ -27,13 +26,12 @@ const Work = () => (
                 </ListItem>
                 <ListItem>
                     <Meta>Stack</Meta>
-                    <span>NodeJS, Electron, React Native</span>
+                    <span>HTML, CSS, JS</span>
                 </ListItem>
             </List>
-            <WorkImage src="/images/works/work.jpg" alt="OnePiece"/>
+            <WorkImage src="/images/works/TikTakToe.png" alt="OnePiece"/>
         </Container>
     </Layout>
 )
 
 export default Work
-// export { getServerSideProps } from '../../components/chakra'

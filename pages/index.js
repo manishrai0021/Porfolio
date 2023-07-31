@@ -82,12 +82,20 @@ const Page = () => {
                         Completed +2 Commerce in Dharan Adarsha
                     </BioSection>
                     <BioSection>
+                        <BioYear>2020</BioYear>
+                        COVID : )
+                    </BioSection>
+                    <BioSection>
                         <BioYear>2021 - Present</BioYear>
                         Bsc.IT(hons) in Itahari International College
                     </BioSection>
                     <BioSection>
                         <BioYear>2022 - 4 months</BioYear>
-                        Frontend Web Developer
+                        Frontend Web Developer in BlueFox Pvt. Ltd.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2023</BioYear>
+                        Full Stack Developer | Graphics Designer
                     </BioSection>
                 </Section>
                 <Section delay={0.3}>
