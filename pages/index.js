@@ -9,7 +9,8 @@ import {
     Link,
     SimpleGrid,
     List,
-    ListItem
+    ListItem,
+    color
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
@@ -59,6 +60,7 @@ const Page = () => {
                         instead usefull in solving simple, huge, important problems and 
                         obstacle of common people.
                     </Paragraph>
+                    <Heading as="h4" variant="section-clients" color="white">Clients Count = 4+</Heading>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
                             <Button rightIcon={<ChevronRightIcon/>} colorScheme="teal" >
@@ -83,16 +85,22 @@ const Page = () => {
                         <BioYear>2021 - Present</BioYear>
                         Bsc.IT(hons) in Itahari International College
                     </BioSection>
+                    <BioSection>
+                        <BioYear>2022 - 4 months</BioYear>
+                        Frontend Web Developer
+                    </BioSection>
                 </Section>
                 <Section delay={0.3}>
                     <Heading as="h3" variant="section-title">
                         I ♥
                     </Heading>
                     <Paragraph>
-                        Art, Music, {''}
-                        <Link href="">Drawing</Link>
-                        , Hiking, {''}
-                        <Link href="">Photography</Link>
+                        Art, Music
+                         {/* {''}, */}
+                        , Drawing
+                        {/* <Link href="">Drawing</Link> */}
+                        , Hiking, Photography
+                        {/* <Link href="">Photography</Link> */}
                         , Tech, Travelling
                     </Paragraph>
                 </Section>
