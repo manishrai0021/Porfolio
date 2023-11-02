@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbnail from '../public/images/works/Soon.png'
+import thumbnail from '../public/images/works/soon.png'
 
 const Posts = () => (
     <Layout title="Posts">
@@ -15,12 +15,12 @@ const Posts = () => (
             <Section delay={0.1}>
                 <SimpleGrid columns={[1,2,2]} gap={6}>
                     <GridItem
-                        title="How to build a portfolio website"
+                        title="How to build a portfolio Nepal."
                         thumbnail={thumbnail}
                         href="/"
                     />
                     <GridItem
-                        title="How to Start Freelancing"
+                        title="How to Start Freelancing Nepal."
                         thumbnail={thumbnail}
                         href="/"
                     />
@@ -30,12 +30,12 @@ const Posts = () => (
             <Section delay={0.3}>
                 <SimpleGrid columns={[1,2,2]} gap={6}>
                     <GridItem
-                        title="How to build a Business from Scratch"
+                        title="How to build a Business by Scratch from Nepal."
                         thumbnail={thumbnail}
                         href="/"
                     />
                     <GridItem
-                        title="How to Start Fitness training"
+                        title="How to Start Fitness training in Nepal."
                         thumbnail={thumbnail}
                         href="/"
                     />
@@ -45,12 +45,12 @@ const Posts = () => (
             <Section delay={0.5}>
                 <SimpleGrid columns={[1,2,2]} gap={6}>
                     <GridItem
-                        title="How to buy food"
+                        title="How to buy food in Nepal"
                         thumbnail={thumbnail}
                         href="/"
                     />
                     <GridItem
-                        title="How to let them know you"
+                        title="How to let them know you r from NEPAL."
                         thumbnail={thumbnail}
                         href="/"
                     />

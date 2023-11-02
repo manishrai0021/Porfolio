@@ -19,20 +19,22 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter , IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { AiFillYoutube } from 'react-icons/ai'
+
 
 const Page = () => {
     return (
         <Layout>
             <Container>
                 <Box borderRadius="lg" bg="red" p={3} mb={6} align="center">
-                    Hello, I&apos;m a full-stack developer based in Nepal!
+                    Creation, Hello, I&apos;m a full-stack developer based in Nepal!
                 </Box>
                 <Box dispaly={{md:'flex'}}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
                             Manish Kumar Rai aka #Zunotox
                         </Heading>
-                        <p>Digital Craftzman ( Artist / Developer /Designer)</p>
+                        <p>Digital Craftzman ( Artist / Developer /Designer / Youtuber)</p>
                     </Box>
                     <Box flexShrink={0} mt={{ base:4, md:0}} ml={{ md: 6}} align="center">
                         <Image 
@@ -53,13 +55,11 @@ const Page = () => {
                     </Heading>
                     <Paragraph>
                         Manish is a indie and a fullstack developer based in Nepal 
-                        with a passion in learning and developing High End Softwares for 
-                        mass general public. He is fond of building products and services 
-                        that helps daily life of people easiest as possible. He seeks to 
-                        stackup featured software which doesn't make people addictive 
-                        instead usefull in solving simple, huge, important problems and 
-                        obstacle of common people.
-                    </Paragraph>
+                        with a passion in learning and developing High End 0s. for 
+                        mass general public. He is fond of building 0s. and services 
+                        that helps daily life of Human easiest as possible. He seeks to 
+                        stackup featured 1 which doesn't make people addictive 
+                        instead usefull in solving simple, huge, important problems and /</Paragraph>
                     <Heading as="h4" variant="section-clients" color="white">Clients Count = 4+</Heading>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
@@ -95,7 +95,7 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2023</BioYear>
-                        Full Stack Developer | Graphics Designer
+                        Full Dev | Designer | Creator
                     </BioSection>
                 </Section>
                 <Section delay={0.3}>
@@ -135,6 +135,13 @@ const Page = () => {
                             <Link href="https://www.instagram.com/manish_k_rai/" target='_blank'>
                                 <Button variant="ghost" colorScheme="teal" leftIcon={<IoLogoInstagram/>} >
                                     @manish_k_rai
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="https://youtube.com/@DevDaiOfficial?si=K1jQiw_cq4DK9Wy-" target='_blank'>
+                                <Button variant="ghost" colorScheme="teal" leftIcon={<AiFillYoutube/>} >
+                                    @devdai
                                 </Button>
                             </Link>
                         </ListItem>

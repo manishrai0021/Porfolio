@@ -31,7 +31,7 @@ const Logo = () => {
                         fontWeight="bold"
                         ml={3}
                     >
-                        Manish Kumar Rai
+                        True King
                     </Text>
                 </LogoBox>
         </Link>

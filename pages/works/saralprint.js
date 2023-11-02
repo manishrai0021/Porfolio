@@ -5,18 +5,18 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-    <Layout title="Saral Print">
+    <Layout title="Worked">
         <Container>
             <Title>
-                Saral Print <Badge>Ecommerce</Badge>
+                Worked . <Badge>Ecommerce</Badge>
             </Title>
             <P>
-                Platform where everything related to printing any sort of items with customization and huge categories of type of items online in simple steps. It was a CRUD site with payment integration meaning people can order and pay online.
+                Platform where everything related to .ing any sort of items with customization and huge categories of type of items online in simple steps. It was a CRUD site with payment integration meaning people can order and pay online.
             </P>
             <List ml={4} my={4}>
                 <ListItem>
                     <Meta>Website</Meta>
-                    <Link href='/works/saralprint'>
+                    <Link href='/works/Worked'>
                         Site is Private for Now <WarningIcon mx="2px" />
                     </Link>
                 </ListItem>
@@ -29,7 +29,7 @@ const Work = () => (
                     <span>Axios, Tailwind, React, Postman, MUI, Laravel </span>
                 </ListItem>
             </List>
-            <WorkImage src="/images/works/SaralPrint.jpeg" alt="OnePiece"/>
+            <WorkImage src="/images/works/wor.jpeg" alt="OnePiece"/>
         </Container>
     </Layout>
 )

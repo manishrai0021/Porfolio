@@ -4,32 +4,32 @@ import { WorkGridItem } from '../components/grid-item'
 
 import Thumbnail from '../public/images/works/work.jpg'
 import Soon from '../public/images/works/Soon.png'
-import SaralPrint from '../public/images/works/SaralPrint.jpeg'
-import TikTakToe from '../public/images/works/TikTakToe.png'
+import Worked from '../public/images/works/Soon.png'
+import Circulation from '../public/images/works/Soon.png'
 import MD from '../public/images/works/MD.png'
 import Zunotox from '../public/images/works/zunotox.jpeg'
 
 const Works = () => {
   const works = [
     {
-      name: 'Saral Print',
-      desc: 'Platform to design and order prints online.',
-      img: SaralPrint
+      name: 'Worked .',
+      desc: 'Platform to design and order .s online.',
+      img: Worked
     },
     {
-      name: 'Tik Tak Toe',
-      desc: 'Tik Tak Toe game for fun.',
-      img: TikTakToe
+      name: 'Working',
+      desc: 'Working game for fun.',
+      img: Circulation
     },
     {
-      name: 'Social Media',
-      desc: 'Social Media for people to connect and share moments.',
-      img: SaralPrint
+      name: 'Will Work',
+      desc: 'Will Work for people to connect and share moments.',
+      img: Worked
     },
     {
-      name: 'Saral Print',
-      desc: 'Platform to design and order prints online.',
-      img: SaralPrint
+      name: 'Worked .',
+      desc: 'Platform to design and order .s online.',
+      img: Worked
     }
   ]
   const colaboration = [
@@ -52,15 +52,15 @@ const Works = () => {
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem
-            id="saralprint"
+            id="Worked"
             title={works[0].name}
-            thumbnail={SaralPrint}
+            thumbnail={Worked}
           >
             {works[0].desc}
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="tiktaktoe" title={works[1].name} thumbnail={TikTakToe}>
+          <WorkGridItem id="Circulation" title={works[1].name} thumbnail={Circulation}>
             {works[1].desc}
           </WorkGridItem>
         </Section>
@@ -70,7 +70,7 @@ const Works = () => {
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="one" title="Agro Nepal" thumbnail={Soon}>
+          <WorkGridItem id="one" title="Creation" thumbnail={Soon}>
             Farming Revolution
           </WorkGridItem>
         </Section>
