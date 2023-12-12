@@ -8,7 +8,7 @@ const Work = () => (
     <Layout title="Worked">
         <Container>
             <Title>
-                Worked . <Badge>Ecommerce</Badge>
+                SaralPrint <Badge>Ecommerce</Badge>
             </Title>
             <P>
                 Platform where everything related to .ing any sort of items with customization and huge categories of type of items online in simple steps. It was a CRUD site with payment integration meaning people can order and pay online.
@@ -29,7 +29,7 @@ const Work = () => (
                     <span>Axios, Tailwind, React, Postman, MUI, Laravel </span>
                 </ListItem>
             </List>
-            <WorkImage src="/images/works/wor.jpeg" alt="OnePiece"/>
+            <WorkImage src="/images/works/SaralPrint.jpeg" alt="SaralPrint"/>
         </Container>
     </Layout>
 )

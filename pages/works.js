@@ -2,17 +2,22 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import Thumbnail from '../public/images/works/work.jpg'
+import SaralPrint from '../public/images/works/SaralPrint.jpeg'
+import TikTakToe from '../public/images/works/TikTakToe.png'
 import Soon from '../public/images/works/Soon.png'
 import Worked from '../public/images/works/Soon.png'
 import Circulation from '../public/images/works/Soon.png'
-import MD from '../public/images/works/MD.png'
+import MD from '../public/images/works/Meira/MD.png'
 import Zunotox from '../public/images/works/zunotox.jpeg'
 
 const Works = () => {
   const works = [
     {
-      name: 'Worked .',
+      name: 'SaralPrint',
+      desc: 'Ecommerce Platform',
+    },
+    {
+      name: 'TikTakToe',
       desc: 'Platform to design and order .s online.',
       img: Worked
     },
@@ -51,22 +56,23 @@ const Works = () => {
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem
-            id="Worked"
-            title={works[0].name}
-            thumbnail={Worked}
-          >
+          <WorkGridItem id="saralprint" title={works[0].name} thumbnail={SaralPrint}>
             {works[0].desc}
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="Circulation" title={works[1].name} thumbnail={Circulation}>
+          <WorkGridItem id="tiktaktoe" title={works[1].name} thumbnail={TikTakToe}>
             {works[1].desc}
           </WorkGridItem>
         </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="one" title={works[2].name} thumbnail={Soon}>
+        <Section>
+          <WorkGridItem id="Circulation" title={works[2].name} thumbnail={Circulation}>
             {works[2].desc}
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="one" title={works[3].name} thumbnail={Soon}>
+            {works[3].desc}
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
@@ -83,8 +89,9 @@ const Works = () => {
       </Section>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="one" title={colaboration[0].name} thumbnail={MD}>
+          <WorkGridItem id="meira" title={colaboration[0].name} thumbnail={MD}>
             {colaboration[0].desc}
+
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
