@@ -9,7 +9,7 @@ const ThemeToggleButton = () => {
     <AnimatePresence mode='wait'>
       <motion.div
         style={{ display: 'inline-block' }}
-        key={useColorModeValue('light', 'dark')}
+        key={useColorModeValue('dark', 'light')}
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 20, opacity: 0 }}
@@ -17,7 +17,7 @@ const ThemeToggleButton = () => {
       >
         <IconButton
           aria-label="Toggle theme"
-          colorScheme={useColorModeValue('black', 'red')}
+          colorScheme={useColorModeValue('gray', 'red')}
           icon={useColorModeValue(<MoonIcon />, <SunIcon />)}
           onClick={toggleColorMode}
         ></IconButton>
