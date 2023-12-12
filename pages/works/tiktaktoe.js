@@ -8,7 +8,7 @@ const Work = () => (
     <Layout title="One Piece">
         <Container>
             <Title>
-                Circulation <Badge>Game</Badge>
+                TikTakToe <Badge>Game</Badge>
             </Title>
             <P>
                 A simple game of "X" and "O".
@@ -29,7 +29,7 @@ const Work = () => (
                     <span>HTML, CSS, JS</span>
                 </ListItem>
             </List>
-            <WorkImage src="/images/works/Circulation.png" alt="OnePiece"/>
+            <WorkImage src="/images/works/TikTakToe.png" alt="Tiktaktoe"/>
         </Container>
     </Layout>
 )

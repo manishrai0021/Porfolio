@@ -55,12 +55,12 @@ const Page = () => {
                     </Heading>
                     <Paragraph>
                         Manish is a indie and a fullstack developer based in Nepal 
-                        with a passion in learning and developing High End 0s. for 
-                        mass general public. He is fond of building 0s. and services 
-                        that helps daily life of Human easiest as possible. He seeks to 
-                        stackup featured 1 which doesn't make people addictive 
-                        instead usefull in solving simple, huge, important problems and /</Paragraph>
-                    <Heading as="h4" variant="section-clients" color="white">Clients Count = 9++</Heading>
+                        with a passion in learning and developing High End softwares for 
+                        mass general public. He is fond of building softwares and services 
+                        that helps daily life of people easiest as possible. He seeks to 
+                        stackup featured softwares which doesn't make people addictive 
+                        instead usefull in solving simple, huge, important problems.</Paragraph>
+                    <Heading as="h4" variant="section-clients" color="white">Clients Count = 4+</Heading>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
                             <Button rightIcon={<ChevronRightIcon/>} colorScheme="teal" >
